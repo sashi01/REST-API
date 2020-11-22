@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5fba0f5f1a99004a48bc1a46
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Sashi Bhushan",
+    "subscribedToChannel": "Full Stack"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5fba0f551a99004a48bc1a45
+
+###
+
+PATCH  http://localhost:3000/subscribers/5fba0f5f1a99004a48bc1a46
+Content-Type: application/json
+
+{
+    "name": "Rishi Singh"
+}
